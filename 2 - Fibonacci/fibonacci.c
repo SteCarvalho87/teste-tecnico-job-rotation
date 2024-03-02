@@ -7,7 +7,7 @@ int buscaFibonacci (int x)
 {
     int f1 = 0;
     int f2 = 1;
-    int f3;
+    int f3 = 0;
 
     if ((x == f1) || (x == f2))
     {
