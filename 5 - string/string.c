@@ -15,14 +15,15 @@ int main()
     printf ("Digite uma palavra qualquer:\n");
     fgets(palavra, sizeof(palavra),stdin);
     tamanho = strlen(palavra);
-    
+
     for(i=0, j=tamanho-1; i < tamanho/2; i++, j--)
     {
         troca = palavra[i];
         palavra[i] = palavra[j];
         palavra[j] = troca;
     }
-    printf ("\n A palavra invertida fica assim: %s", palavra);
+    printf ("\n A palavra invertida fica assim: %s\n", palavra);
 
+    system("pause");
     return 0;
 }
