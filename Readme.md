@@ -57,4 +57,10 @@ Para ver a execução do programa: Com o node.js instalado no computador, abra o
 ```
 node "nomeDoArquivo.js"
 ```
-Para visualizar o código, abra o arquivo no Visual Studio Code.<br>
+
+## Possíveis erros
+Ao executar o arquivo "faturamento.py" pelo VScode, é possível que o carregamendo dos dados no arquivo "dados.json" apresente algum erro.
+Isso pode ocorrer ao abrir todas as pastas do repositório no VSCode. Nesse caso, abra diretamente na pasta "3 - faturamento" e execute novamente o arquivo.
+
+## Dificuldades e aprendizados
+O carregamento de  dados JSON é algo que eu ainda não tinha tido a oportunidade de estudar. Aprendi muito brevemente sobre a manipulação de arquivos em C na faculdade. Para a execução do desfio 3 precisei aprender um pouco da linguagem Python e como fazer esse carregamento. Pretendo explorar mais o assunto daqui em diante.
